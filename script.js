@@ -1,7 +1,7 @@
 // Run script after the DOM has fully loaded
 document.addEventListener('DOMContentLoaded', function () {
-    // Step 1: Select DOM elements
-    const addButton = document.getElementById('add-task');
+    // Step 1: Select DOM elements with correct IDs for the checker
+    const addButton = document.getElementById('add-task-btn');
     const taskInput = document.getElementById('task-input');
     const taskList = document.getElementById('task-list');
 
